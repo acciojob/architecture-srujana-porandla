@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .content {
+            width: 1100px;
+            padding: 20px;
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        td img {
+            max-width: 100%;
+            height: auto;
+        }
